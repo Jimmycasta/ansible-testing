@@ -1,0 +1,6 @@
+---
+- name: Prueba de Ping
+  hosts: nodos
+  tasks:
+    - name: Prueba de Ping
+      ansible.builtin.ping:
